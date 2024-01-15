@@ -19,10 +19,10 @@ for(let prop in songElements) {
 
     switch(prop) {
         case 'tempo':
-            completeSuggestion.push(`What about a ${songElements[prop][elementIndex]}`);
+            completeSuggestion.push(`What about ${songElements[prop][elementIndex]}`);
             break;
         case 'genre':
-            completeSuggestion.push(`${songElements[prop][elementIndex]} song`);
+            completeSuggestion.push(`${songElements[prop][elementIndex]} songs`);
             break;
         case 'decade':
             completeSuggestion.push(`from the ${songElements[prop][elementIndex]}?`);
