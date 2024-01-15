@@ -31,3 +31,10 @@ for(let prop in songElements) {
             completeSuggestion.push('Cannot make suggestion.');
     }
 }
+
+function joinedSuggestion(suggestionArray) {
+    const joinedSuggestion = completeSuggestion.join(' ');
+    console.log(joined);
+}
+
+joinedSuggestion(completeSuggestion);
