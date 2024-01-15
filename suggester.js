@@ -34,7 +34,7 @@ for(let prop in songElements) {
 
 function joinedSuggestion(suggestionArray) {
     const joinedSuggestion = completeSuggestion.join(' ');
-    console.log(joined);
+    console.log(joinedSuggestion);
 }
 
 joinedSuggestion(completeSuggestion);
